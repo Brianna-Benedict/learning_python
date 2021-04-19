@@ -4,14 +4,9 @@
 # Use a 'for' loop
 
 dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
-
 # your code goes here
-dna = 'ATAGCGAATATCTCTCATGAGAGGGAA'
-def codons(dna):
-    dna_len=len(dna)
-    for codon in range(0,dna_len,3):
-        print(dna[codon:codon+3])
-
+for i in range(0, len(dna), 3):
+    print(dna[i:i+3])
 """
 python3 codons.py
 ATA
