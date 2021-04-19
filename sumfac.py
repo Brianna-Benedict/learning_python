@@ -8,16 +8,13 @@
 n = 5
 
 # your code goes here
-def fact_runsum(n)
-    sum=0
-    mult=1
-
-for num in range(1, n+1):
-    sum=sum+num
-    mult=mult*num
-    print(sum)
-    print(mult)
-
+sum=0
+factorial=1
+for i in range(1,n+1):
+    sum+=i
+    factorial*=i
+print(sum)
+print(factorial)
 """
 python3 sumfac.py
 5 15 120
